@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  python:
+    image: python:3.9
+    volumes:
+      - .:/app
+    tty: true
+    command: bash
+
