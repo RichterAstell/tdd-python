@@ -84,21 +84,3 @@ suite.add(TestCaseTest("testSuite"))
 result = TestResult()
 suite.run(result)
 print(result.summary())
-
-# print(TestCaseTest("testTemplateMethod").run().summary())
-# print(TestCaseTest("testResult").run().summary())
-# print(TestCaseTest("testFailedResult").run().summary())
-# print(TestCaseTest("testResultFormatting").run().summary())
-
-# print(TestCaseTest("testSuite").run().summary())
-
-# TestCaseTest("testSetUp").run()
-# test = WasRun("testMethod")
-# print(test.wasRun)
-# test.run()
-# print(test.wasRun)
-
-# classの整理
-# TestCaseTest - テスト対象を選択して run() でテストを呼び出す
-# WasRun - テスト対象？
-# TestCase - テストケースのベースクラス
